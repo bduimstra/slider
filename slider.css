@@ -1,0 +1,72 @@
+.left-button,
+.right-button {
+	background:#FFF;
+	border-radius:30px;
+	box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+	cursor:pointer;
+	float:left;
+	opacity:0.4;
+	margin-right:5px;
+	padding:2px 6px;
+}
+
+div[class*="button"] p {
+	margin:2px 0 0 0;
+}
+
+.nav-buttons {
+	bottom:10px;
+	position:absolute;
+	right:5px;
+}
+
+.dot-nav {
+	bottom:10px;
+	left:10px;
+	position:absolute;
+	max-width:50%;
+}
+
+.dot-outer {
+	background:rgba(255, 255, 255, 0.8);
+	border:1px solid #ccc;
+	border-radius:20px;
+	box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+	cursor:pointer;
+	float:left;
+	margin:3px;
+	opacity:.5;
+	padding:2px;
+}
+
+.dot-outer:hover {
+	opacity:1;
+}
+
+.dot {
+	background:#ccc;
+	border-radius:20px;
+	box-shadow:0px 0px 2px rgba(0, 0, 0, 0.7);
+	text-align:center
+}
+
+.dot p {
+	font-size:11px;
+	height:17px;
+	margin:0;
+	padding-top:3px;
+	width:20px;
+}
+
+.current-dot {
+	border:1px solid #7d0c21;
+	opacity:1;
+}
+
+.slider-wrapper {
+	-webkit-transition:all 600ms;
+	-moz-transition:all 600ms;
+	-ms-transition:all 600ms;
+	-o-transition:all 600ms;
+	transition:all 600ms;
+}
